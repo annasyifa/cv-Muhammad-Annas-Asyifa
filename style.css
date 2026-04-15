@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #f5f6fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: #5a67d8; /* warna baru */
+  color: #fff;
+  padding: 30px 15px;
+  text-align: center;
+}
+
+header .Profil img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  margin-bottom: 15px;
+  object-fit: cover;
+}
+
+header h1 {
+  font-size: 28px;
+}
+
+header p {
+  font-size: 14px;
+}
+
+main {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #5a67d8;
+  border-bottom: 2px solid #5a67d8;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+
+ul {
+  list-style-type: square;
+  margin-left: 20px;
+}
+
+.Keahlian-tags span {
+  display: inline-block;
+  background: #7f9cf5;
+  color: #fff;
+  padding: 5px 12px;
+  border-radius: 20px;
+  margin: 5px 5px 0 0;
+  font-size: 14px;
+}
+
+footer {
+  background: #5a67d8;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+  font-size: 14px;
+}
